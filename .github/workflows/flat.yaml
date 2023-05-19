@@ -1,1 +1,42 @@
+name: Flat
 
+on:
+  push:
+    paths:
+      - .github/workflows/flat.yml
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'  # Run every 5 minutes for testing
+  # - cron: '0 21 * * 1-5' # Run M-F at 2100UTC (1700ET)
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Fetch spy data 
+        id: spy
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=SPY&outputsize=compact&datatype=json&apikey=HJLDQLBSNDED5QR8
+          downloaded_filename: spy-hist.json
+          postprocess: postprocess.js
+      - name: Fetch qqq data 
+        id: qqq
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=QQQ&outputsize=compact&datatype=json&apikey=HJLDQLBSNDED5QR8
+          downloaded_filename: qqq-hist.json
+          postprocess: postprocess.js
+      - name: Fetch sol data 
+        id: sol
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=SOLUSD&outputsize=compact&datatype=json&apikey=HJLDQLBSNDED5QR8
+          downloaded_filename: sol-price.json
+          postprocess: postprocess.js
