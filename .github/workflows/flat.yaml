@@ -27,6 +27,8 @@ jobs:
           http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=SPY&outputsize=compact&datatype=json&apikey=HJLDQLBSNDED5QR8
           downloaded_filename: spy-hist.json
           postprocess: postprocess.js
+      - name: Run postprocess.js on spy-hist.json
+        run: deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable postprocess.js spy-hist.json
       - name: Fetch qqq 
         uses: githubocto/flat@v3
         env:
@@ -35,6 +37,8 @@ jobs:
           http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=QQQ&outputsize=compact&datatype=json&apikey=HJLDQLBSNDED5QR8
           downloaded_filename: qqq-hist.json
           postprocess: postprocess.js
+      - name: Run postprocess.js on qqq-hist.json
+        run: deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable postprocess.js qqq-hist.json
       - name: Fetch sol 
         uses: githubocto/flat@v3
         env:
@@ -43,3 +47,5 @@ jobs:
           http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=SOLUSD&outputsize=compact&datatype=json&apikey=HJLDQLBSNDED5QR8
           downloaded_filename: sol-hist.json
           postprocess: postprocess.js
+      - name: Run postprocess.js on ssol-hist.json
+        run: deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env --unstable postprocess.js sol-hist.json
