@@ -46,8 +46,3 @@ await writeJSON(newqqqFilename, processedQqqRates);
 await writeJSON(newsolFilename, processedSolRates);
 
 console.log("Wrote post process files");
-
-await removeFile("./spy-hist.json");
-await removeFile("./qqq-hist.json");
-await removeFile("./sol-hist.json");
-console.log("Removed OG files");
