@@ -1,7 +1,7 @@
-const { readJson, writeJson, remove } = Deno;
+import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14/mod.ts' 
 
 const filename = Deno.args[0];
-let json = await readJson(filename);
+let json = await readJSON(filename);
 console.log(json);
 
 const spyRates = JSON.parse(await Deno.readTextFile("./spy-hist.json"));
@@ -41,13 +41,13 @@ const newspyFilename = `spy-hist-postprocessed.json`;
 const newqqqFilename = `qqq-hist-postprocessed.json`;
 const newsolFilename = `sol-hist-postprocessed.json`;
 
-await writeJson(newspyFilename, processedSpyRates);
-await writeJson(newqqqFilename, processedQqqRates);
-await writeJson(newsolFilename, processedSolRates);
+await writeJSON(newspyFilename, processedSpyRates);
+await writeJSON(newqqqFilename, processedQqqRates);
+await writeJSON(newsolFilename, processedSolRates);
 
 console.log("Wrote post process files");
 
-await remove("./spy-hist.json");
-await remove("./qqq-hist.json");
-await remove("./sol-hist.json");
+await removeFile("./spy-hist.json");
+await removeFile("./qqq-hist.json");
+await removeFile("./sol-hist.json");
 console.log("Removed OG files");
