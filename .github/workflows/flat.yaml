@@ -40,3 +40,4 @@ jobs:
         env:
           http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=SOLUSD&outputsize=compact&datatype=json&apikey=HJLDQLBSNDED5QR8
           downloaded_filename: sol-price.json
+
