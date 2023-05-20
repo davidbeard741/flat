@@ -21,7 +21,7 @@ function processData(data) {
   processedData.sort((a, b) => new Date(a.time) - new Date(b.time));
 
   return processedData.map((item) => ({
-    time: new Date(item.time).toISOString().split("T")[0],
+    time: new Date(item.time),
     open: item.open,
     high: item.high,
     low: item.low,
