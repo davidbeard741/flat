@@ -2,53 +2,30 @@ import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14
 
 const filename = Deno.args[0];
 const json = await readJSON(filename);
-
-const spyRates = Object.values(json["Time Series (Daily)"]);
-
-// const qqqRates = Object.values(json["Time Series (Daily)"]);
-                               
-function processData(data) {
-  const processedData = Object.entries(data).map(([date, entry]) => {
-    const dateString = date.trim(); // Remove any leading/trailing whitespaces
-
-    // Validate the date string format
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateString) || dateString.includes("0")) {
-      throw new Error(`Invalid date format: ${dateString}`);
-    }
-
-    const dateObj = new Date(dateString);
-
-    // Check if the dateObj is valid
-    if (isNaN(dateObj.getTime())) {
-      throw new Error(`Invalid date value: ${dateString}`);
-    }
-
-    return {
-      time: dateObj.toISOString().split('T')[0],
-      open: parseFloat(entry["1. open"]),
-      high: parseFloat(entry["2. high"]),
-      low: parseFloat(entry["3. low"]),
-      close: parseFloat(entry["4. close"]),
-    };
+                     
+let data = [];
+let timeSeries = Object.values(json["Time Series (Daily)"]);
+timeSeries = timeSeries["Time Series (Daily)"];
+for (let date in timeSeries) {
+  let entry = timeSeries[date];
+  data.push({
+    time: date,
+    open: parseFloat(entry["1. open"]),
+    high: parseFloat(entry["2. high"]),
+    low: parseFloat(entry["3. low"]),
+    close: parseFloat(entry["4. close"])
   });
-
-  processedData.sort((a, b) => new Date(a.time) - new Date(b.time));
-
-  return processedData;
 }
+data.sort((a, b) => new Date(a.time) - new Date(b.time));
+data = data.map((item) => ({
+  time: new Date(item.time).toISOString().split('T')[0],
+  open: item.open,
+  high: item.high,
+  low: item.low,
+  close: item.close,
+}));
 
-
-let processedSpyRates = processData(spyRates);
-
-// let processedQqqRates = processData(qqqRates);
-// let processedSolRates = processData(solRates);
-
-const newFileone = `spy-postprocessed.json`;
-// const newFiletwo = `qqq-postprocessed.json`;
-// const newFilethree = `sol-postprocessed.json`;
-
-await writeJSON(newFileone, processedSpyRates);
-// await writeJSON(newFiletwo, processedQqqRates);
-// await writeJSON(newFilethree, processedSolRates);
-
+let processedSpyRates = data;
+const newFile = `spy-postprocessed.json`;
+await writeJSON(newFile, processedSpyRates);
 console.log("Wrote post-process files");
