@@ -11,8 +11,14 @@ const spyRates = Object.values(json["Time Series (Daily)"]);
 
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => {
-   const dateString = date.trim(); // Remove any leading/trailing whitespaces
-    const dateObj = new Date(dateString); // Convert the date string to a Date object
+    const dateString = date.trim(); // Remove any leading/trailing whitespaces
+
+    const dateObj = new Date(dateString);
+
+    // Check if the dateObj is valid
+    if (isNaN(dateObj.getTime())) {
+      throw new Error(`Invalid date value: ${dateString}`);
+    }
 
     return {
       time: dateObj.toISOString().split('T')[0],
@@ -27,6 +33,7 @@ function processData(data) {
 
   return processedData;
 }
+
 
 let processedSpyRates = processData(spyRates);
 
