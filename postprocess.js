@@ -1,16 +1,12 @@
-// This can be a typescript file as well
-
-// Helper library written for useful postprocessing tasks with Flat Data
-// Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14/mod.ts' 
 
 
-const filename = Deno.args[0] // Same name as downloaded_filename `const filename = 'btc-price.json';`
+const filename = Deno.args[0]
 const json = await readJSON(filename)
 console.log(json)
 
-// Step 2: Filter specific data we want to keep and write to a new JSON file
-const spyRates = Object.values(json.spy); // convert property values into an array
+
+const spyRates = Object.values(json.spy);
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => ({
     time: date,
@@ -32,9 +28,8 @@ function processData(data) {
 }
 let processedSpyRates = processData(spyRates);
 
-// Step 3. Write a new JSON file with our filtered data
-const newFilename = `spy-postprocessed.json` // name of a new file to be saved
-await writeJSON(newFilename, processedSpyRates) // create a new JSON file with just the Bitcoin price
+const newFilename = `spy-postprocessed.json`
+await writeJSON(newFilename, processedSpyRates) 
 console.log("Wrote a post process file")
 
 
