@@ -1,15 +1,11 @@
 import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14/mod.ts' 
 
+const filename = Deno.args[0];
+const json = await readJSON(filename);
 
-const filename = Deno.args[0]
-const json = await readJSON(filename)
-console.log(json)
-
-
-
-const spyRates = Object.values(json["Time Series (Daily)"]);
-const qqqRates = Object.values(json["Time Series (Daily)"]);
-const solRates = Object.values(json["Time Series (Daily)"]);
+const spyRates = Object.values(json["Time Series (Daily)"]["SPY"]);
+const qqqRates = Object.values(json["Time Series (Daily)"]["QQQ"]);
+const solRates = Object.values(json["Time Series (Daily)"]["SOL"]);
 
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => ({
@@ -30,14 +26,17 @@ function processData(data) {
     close: item.close,
   }));
 }
+
 let processedSpyRates = processData(spyRates);
 let processedQqqRates = processData(qqqRates);
 let processedSolRates = processData(solRates);
 
-const newFileone = `spy-postprocessed.json`
-const newFiletwo = `qqq-postprocessed.json`
-const newFilethree = `sol-postprocessed.json`
-await writeJSON(newFileone, processedSpyRates) 
-await writeJSON(newFiletwo, processedQqqRates) 
-await writeJSON(newFilethree, processedSolRates) 
-console.log("Wrote a post process files")
+const newFileone = `spy-postprocessed.json`;
+const newFiletwo = `qqq-postprocessed.json`;
+const newFilethree = `sol-postprocessed.json`;
+
+await writeJSON(newFileone, processedSpyRates);
+await writeJSON(newFiletwo, processedQqqRates);
+await writeJSON(newFilethree, processedSolRates);
+
+console.log("Wrote post-process files");
