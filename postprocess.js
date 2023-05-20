@@ -1,19 +1,19 @@
-import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14/mod.ts' 
+import { readJSON, writeJSON } from 'https://deno.land/x/flat/mod.ts';
 
 const filename = Deno.args[0];
 const json = await readJSON(filename);
-                     
+
 let data = [];
 let timeSeries = Object.values(json["Time Series (Daily)"]);
-timeSeries = timeSeries["Time Series (Daily)"];
+timeSeries = timeSeries[0];
 for (let date in timeSeries) {
   let entry = timeSeries[date];
   data.push({
     time: date,
-    open: parseFloat(entry["1. open"]),
-    high: parseFloat(entry["2. high"]),
-    low: parseFloat(entry["3. low"]),
-    close: parseFloat(entry["4. close"])
+    open: entry["1. open"],
+    high: entry["2. high"],
+    low: entry["3. low"],
+    close: entry["4. close"]
   });
 }
 data.sort((a, b) => new Date(a.time) - new Date(b.time));
@@ -25,7 +25,6 @@ data = data.map((item) => ({
   close: item.close,
 }));
 
-let processedSpyRates = data;
 const newFile = `spy-postprocessed.json`;
-await writeJSON(newFile, processedSpyRates);
+await writeJSON(newFile, data);
 console.log("Wrote post-process files");
