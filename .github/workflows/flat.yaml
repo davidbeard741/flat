@@ -6,8 +6,8 @@ on:
       - .github/workflows/flat.yml
   workflow_dispatch:
   schedule:
-    #- cron: '0 21 * * 1-5' # Run M-F at 2100UTC (1700ET)
-    - cron: '*/5 * * * *' # Run this workflow every 5 minutes
+    - cron: '0 21 * * 1-5' # Run M-F at 2100UTC (1700ET)
+    #- cron: '*/5 * * * *' # Run this workflow every 5 minutes
 
 jobs:
   scheduled:
