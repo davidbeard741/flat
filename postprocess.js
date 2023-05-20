@@ -5,7 +5,7 @@ const json = await readJSON(filename);
 
 let data = [];
 let timeSeries = Object.values(json["Time Series (Daily)"]);
-timeSeries = timeSeries[0];
+timeSeries = timeSeries[0]; // Access the first element of the array
 for (let date in timeSeries) {
   let entry = timeSeries[date];
   data.push({
@@ -18,7 +18,7 @@ for (let date in timeSeries) {
 }
 data.sort((a, b) => new Date(a.time) - new Date(b.time));
 data = data.map((item) => ({
-  time: new Date(item.time).toISOString().split('T')[0],
+  time: item.time,
   open: item.open,
   high: item.high,
   low: item.low,
