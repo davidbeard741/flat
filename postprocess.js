@@ -5,9 +5,9 @@ const json = await readJSON(filename);
 
 const spyRates = Object.values(json["Time Series (Daily)"]);
 
-const qqqRates = Object.values(json["Time Series (Daily)"]);
+// const qqqRates = Object.values(json["Time Series (Daily)"]);
                                
-const solRates = Object.values(json["Time Series (Daily)"]);
+// const solRates = Object.values(json["Time Series (Daily)"]);
 
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => {
@@ -29,15 +29,16 @@ function processData(data) {
 }
 
 let processedSpyRates = processData(spyRates);
-let processedQqqRates = processData(qqqRates);
-let processedSolRates = processData(solRates);
+
+// let processedQqqRates = processData(qqqRates);
+// let processedSolRates = processData(solRates);
 
 const newFileone = `spy-postprocessed.json`;
-const newFiletwo = `qqq-postprocessed.json`;
-const newFilethree = `sol-postprocessed.json`;
+// const newFiletwo = `qqq-postprocessed.json`;
+// const newFilethree = `sol-postprocessed.json`;
 
 await writeJSON(newFileone, processedSpyRates);
-await writeJSON(newFiletwo, processedQqqRates);
-await writeJSON(newFilethree, processedSolRates);
+// await writeJSON(newFiletwo, processedQqqRates);
+// await writeJSON(newFilethree, processedSolRates);
 
 console.log("Wrote post-process files");
