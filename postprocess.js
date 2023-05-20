@@ -7,9 +7,9 @@ console.log(json)
 
 
 
-const spyRates = Object.values(json["Meta Data"]);
-const qqqRates = Object.values(json["Meta Data"]);
-const solRates = Object.values(json["Meta Data"]);
+const spyRates = Object.values(json["Time Series (Daily)"]);
+const qqqRates = Object.values(json["Time Series (Daily)"]);
+const solRates = Object.values(json["Time Series (Daily)"]);
 
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => ({
