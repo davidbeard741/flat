@@ -3,9 +3,9 @@ import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14
 const filename = Deno.args[0];
 const json = await readJSON(filename);
 
-const spyRates = Object.values(json["Meta Data"]["2. Symbol"]["SPY"]);  
-const qqqRates = Object.values(json["Meta Data"]["2. Symbol"]["QQQ"]); 
-const solRates = Object.values(json["Meta Data"]["2. Symbol"]["SOLUSD"]); 
+const spyRates = Object.values(json(json["Time Series (Daily)"]); 
+const qqqRates = Object.values(json(json["Time Series (Daily)"]);
+const solRates = Object.values(json(json["Time Series (Daily)"]);
 
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => ({
