@@ -6,7 +6,11 @@ const json = await readJSON(filename)
 console.log(json)
 
 
-const spyRates = Object.values(json.spy);
+
+const spyRates = Object.values(json["Meta Data"]);
+const qqqRates = Object.values(json["Meta Data"]);
+const solRates = Object.values(json["Meta Data"]);
+
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => ({
     time: date,
@@ -27,56 +31,13 @@ function processData(data) {
   }));
 }
 let processedSpyRates = processData(spyRates);
-
-const newFilename = `spy-postprocessed.json`
-await writeJSON(newFilename, processedSpyRates) 
-console.log("Wrote a post process file")
-
-
-
-
-/*
-
-const sqlRates = JSON.parse(await Deno.readTextFile("./sql-hist.json"));
-const qqqRates = JSON.parse(await Deno.readTextFile("./qqq-hist.json"));
-const solRates = JSON.parse(await Deno.readTextFile("./sol-hist.json"));
-
-// Function to process the data
-function processData(data) {
-  data = data["Time Series (Daily)"];
-  let processedData = [];
-  for (let date in data) {
-    let entry = data[date];
-    processedData.push({
-      time: date,
-      open: parseFloat(entry["1. open"]),
-      high: parseFloat(entry["2. high"]),
-      low: parseFloat(entry["3. low"]),
-      close: parseFloat(entry["4. close"]),
-    });
-  }
-  processedData.sort((a, b) => new Date(a.time) - new Date(b.time));
-  return processedData.map((item) => ({
-    time: new Date(item.time).toISOString().split("T")[0],
-    open: item.open,
-    high: item.high,
-    low: item.low,
-    close: item.close,
-  }));
-}
-
-// Process the data
-let processedSpyRates = processData(spyRates);
 let processedQqqRates = processData(qqqRates);
 let processedSolRates = processData(solRates);
 
-const newspyFilename = `spy-hist-postprocessed.json`;
-const newqqqFilename = `qqq-hist-postprocessed.json`;
-const newsolFilename = `sol-hist-postprocessed.json`;
-
-await writeJSON(newspyFilename, processedSpyRates);
-await writeJSON(newqqqFilename, processedQqqRates);
-await writeJSON(newsolFilename, processedSolRates);
-
-console.log("Wrote post process files");
-*/
+const newFileone = `spy-postprocessed.json`
+const newFiletwo = `qqq-postprocessed.json`
+const newFilethree = `sol-postprocessed.json`
+await writeJSON(newFileone, processedSpyRates) 
+await writeJSON(newFiletwo, processedQqqRates) 
+await writeJSON(newFilethree, processedSolRates) 
+console.log("Wrote a post process files")
