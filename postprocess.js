@@ -7,13 +7,12 @@ const spyRates = Object.values(json["Time Series (Daily)"]);
 
 // const qqqRates = Object.values(json["Time Series (Daily)"]);
                                
-// const solRates = Object.values(json["Time Series (Daily)"]);
 function processData(data) {
   const processedData = Object.entries(data).map(([date, entry]) => {
     const dateString = date.trim(); // Remove any leading/trailing whitespaces
 
     // Validate the date string format
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateString) || dateString.includes("0")) {
       throw new Error(`Invalid date format: ${dateString}`);
     }
 
