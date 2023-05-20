@@ -10,23 +10,22 @@ const qqqRates = Object.values(json["Time Series (Daily)"]);
 const solRates = Object.values(json["Time Series (Daily)"]);
 
 function processData(data) {
-  const processedData = Object.entries(data).map(([date, entry]) => ({
-    time: date,
-    open: parseFloat(entry["1. open"]),
-    high: parseFloat(entry["2. high"]),
-    low: parseFloat(entry["3. low"]),
-    close: parseFloat(entry["4. close"]),
-  }));
+  const processedData = Object.entries(data).map(([date, entry]) => {
+    const dateString = date.trim(); // Remove any leading/trailing whitespaces
+    const dateObj = new Date(dateString); // Convert the date string to a Date object
 
-  processedData.sort((a, b) => new Date(a.time) - new Date(b.time));
+    return {
+      time: dateObj,
+      open: parseFloat(entry["1. open"]),
+      high: parseFloat(entry["2. high"]),
+      low: parseFloat(entry["3. low"]),
+      close: parseFloat(entry["4. close"]),
+    };
+  });
 
-  return processedData.map((item) => ({
-    time: new Date(item.time),
-    open: item.open,
-    high: item.high,
-    low: item.low,
-    close: item.close,
-  }));
+  processedData.sort((a, b) => a.time - b.time);
+
+  return processedData;
 }
 
 let processedSpyRates = processData(spyRates);
