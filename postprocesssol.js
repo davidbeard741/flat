@@ -1,3 +1,8 @@
+/*
+https://api.coingecko.com/api/v3/coins/solana/market_chart?vs_currency=usd&days=100&interval=daily&include_ohlc=true
+*/
+
+
 import { readJSON, writeJSON } from 'https://deno.land/x/flat/mod.ts';
 
 const filename = Deno.args[0];
