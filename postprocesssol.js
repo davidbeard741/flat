@@ -4,7 +4,7 @@ const filename = Deno.args[0];
 const data = await readJSON(filename);
 
 const reformattedData = data.map(entry => ({
-  time: entry[0],
+  time: Math.floor(entry[0] / 1000),  // Convert milliseconds to seconds
   open: entry[1],
   high: entry[2],
   low: entry[3],
