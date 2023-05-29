@@ -6,7 +6,7 @@ on:
       - .github/workflows/slat.yml
   workflow_dispatch:
   schedule:
-    - cron: '0 21 * * 1-5' # Run M-F at 2100UTC (1700ET)
+    - cron: '0 */4 * * *' # Run every 4 hours
 
 jobs:
   scheduled:
@@ -21,6 +21,6 @@ jobs:
       - name: Fetch sol 
         uses: githubocto/flat@v3
         with:
-          http_url: https://api.coingecko.com/api/v3/coins/solana/ohlc?vs_currency=usd&days=30
+          http_url: https://api.coingecko.com/api/v3/coins/solana/ohlc?vs_currency=usd&days=30 # 4-hr OHLC and Volume for the past 30 days
           downloaded_filename: sol-hist.json 
           postprocess: postprocesssol.js
