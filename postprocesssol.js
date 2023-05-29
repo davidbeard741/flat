@@ -2,29 +2,21 @@
 https://api.coingecko.com/api/v3/coins/solana/market_chart?vs_currency=usd&days=100&interval=daily&include_ohlc=true
 */
 
-
 import { readJSON, writeJSON } from 'https://deno.land/x/flat/mod.ts';
 
 const filename = Deno.args[0];
-const json = await readJSON(filename);
+const data = await readJSON(filename);
 
-const timeSeries = json["prices"];
+const reformattedData = data.map(entry => ({
+  time: entry[0],
+  open: entry[1],
+  high: entry[2],
+  low: entry[3],
+  close: entry[4]
+}));
 
-const parsedData = timeSeries.map(dataPoint => {
-  const [timestamp, open, high, low, close] = dataPoint;
-  const date = new Date(timestamp);
-  const formattedDate = date.toISOString().split('T')[0];
+reformattedData.sort((a, b) => b.time - a.time);
 
-  return {
-    time: formattedDate,
-    open,
-    high,
-    low,
-    close
-  };
-});
-
-const jsonData = JSON.stringify(parsedData);
 const newFile = 'sol-postprocessed.json';
-await writeJSON(newFile, data);
+await writeJSON(newFile, reformattedData);
 console.log('Wrote post-processed file: ' + newFile);
