@@ -10,8 +10,7 @@ const reformattedData = data.map(entry => ({
   low: entry[3],
   close: entry[4]
 }));
-
-reformattedData.sort((a, b) => b.time - a.time);
+reformattedData.sort((a, b) => a.time - b.time);
 
 const newFile = 'sol-postprocessed.json';
 await writeJSON(newFile, reformattedData);
