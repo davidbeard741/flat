@@ -1,0 +1,1011 @@
+{
+    "Meta Data": {
+        "1. Information": "Daily Time Series with Splits and Dividend Events",
+        "2. Symbol": "SPY",
+        "3. Last Refreshed": "2023-05-26",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+    },
+    "Time Series (Daily)": {
+        "2023-05-26": {
+            "1. open": "415.33",
+            "2. high": "420.77",
+            "3. low": "415.25",
+            "4. close": "420.02",
+            "5. adjusted close": "420.02",
+            "6. volume": "93829975",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-25": {
+            "1. open": "414.74",
+            "2. high": "416.16",
+            "3. low": "412.4101",
+            "4. close": "414.65",
+            "5. adjusted close": "414.65",
+            "6. volume": "90961606",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-24": {
+            "1. open": "412.42",
+            "2. high": "412.82",
+            "3. low": "409.8795",
+            "4. close": "411.09",
+            "5. adjusted close": "411.09",
+            "6. volume": "89213678",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-23": {
+            "1. open": "417.08",
+            "2. high": "418.722",
+            "3. low": "413.68",
+            "4. close": "414.09",
+            "5. adjusted close": "414.09",
+            "6. volume": "86383493",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-22": {
+            "1. open": "418.64",
+            "2. high": "420.39",
+            "3. low": "417.35",
+            "4. close": "418.79",
+            "5. adjusted close": "418.79",
+            "6. volume": "60745399",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-19": {
+            "1. open": "420.17",
+            "2. high": "420.72",
+            "3. low": "417.35",
+            "4. close": "418.62",
+            "5. adjusted close": "418.62",
+            "6. volume": "103793317",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-18": {
+            "1. open": "414.9",
+            "2. high": "419.67",
+            "3. low": "414.67",
+            "4. close": "419.23",
+            "5. adjusted close": "419.23",
+            "6. volume": "97177195",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-17": {
+            "1. open": "412.35",
+            "2. high": "415.855",
+            "3. low": "410.635",
+            "4. close": "415.23",
+            "5. adjusted close": "415.23",
+            "6. volume": "87286957",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-16": {
+            "1. open": "411.86",
+            "2. high": "412.815",
+            "3. low": "410.24",
+            "4. close": "410.25",
+            "5. adjusted close": "410.25",
+            "6. volume": "57705495",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-15": {
+            "1. open": "412.22",
+            "2. high": "413.43",
+            "3. low": "410.23",
+            "4. close": "413.01",
+            "5. adjusted close": "413.01",
+            "6. volume": "54289383",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-12": {
+            "1. open": "413.42",
+            "2. high": "413.64",
+            "3. low": "409.07",
+            "4. close": "411.59",
+            "5. adjusted close": "411.59",
+            "6. volume": "70481548",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-11": {
+            "1. open": "411.95",
+            "2. high": "412.43",
+            "3. low": "409.97",
+            "4. close": "412.13",
+            "5. adjusted close": "412.13",
+            "6. volume": "70157064",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-10": {
+            "1. open": "413.88",
+            "2. high": "414.535",
+            "3. low": "408.87",
+            "4. close": "412.85",
+            "5. adjusted close": "412.85",
+            "6. volume": "96142922",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-09": {
+            "1. open": "411.13",
+            "2. high": "412.09",
+            "3. low": "410.6894",
+            "4. close": "410.93",
+            "5. adjusted close": "410.93",
+            "6. volume": "49220119",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-08": {
+            "1. open": "412.97",
+            "2. high": "413.24",
+            "3. low": "411.28",
+            "4. close": "412.74",
+            "5. adjusted close": "412.74",
+            "6. volume": "50046768",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-05": {
+            "1. open": "408.91",
+            "2. high": "413.72",
+            "3. low": "408.64",
+            "4. close": "412.63",
+            "5. adjusted close": "412.63",
+            "6. volume": "87891791",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-04": {
+            "1. open": "406.93",
+            "2. high": "407.27",
+            "3. low": "403.74",
+            "4. close": "405.13",
+            "5. adjusted close": "405.13",
+            "6. volume": "94901863",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-03": {
+            "1. open": "411.36",
+            "2. high": "413.87",
+            "3. low": "407.77",
+            "4. close": "408.02",
+            "5. adjusted close": "408.02",
+            "6. volume": "91531769",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-02": {
+            "1. open": "414.77",
+            "2. high": "414.82",
+            "3. low": "407.82",
+            "4. close": "410.84",
+            "5. adjusted close": "410.84",
+            "6. volume": "103998484",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-05-01": {
+            "1. open": "415.47",
+            "2. high": "417.62",
+            "3. low": "415.265",
+            "4. close": "415.51",
+            "5. adjusted close": "415.51",
+            "6. volume": "62122254",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-28": {
+            "1. open": "411.49",
+            "2. high": "415.94",
+            "3. low": "411.43",
+            "4. close": "415.93",
+            "5. adjusted close": "415.93",
+            "6. volume": "89433137",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-27": {
+            "1. open": "407.0",
+            "2. high": "412.69",
+            "3. low": "406.74",
+            "4. close": "412.41",
+            "5. adjusted close": "412.41",
+            "6. volume": "92968369",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-26": {
+            "1. open": "406.72",
+            "2. high": "407.84",
+            "3. low": "403.78",
+            "4. close": "404.36",
+            "5. adjusted close": "404.36",
+            "6. volume": "78319853",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-25": {
+            "1. open": "410.58",
+            "2. high": "411.16",
+            "3. low": "406.02",
+            "4. close": "406.08",
+            "5. adjusted close": "406.08",
+            "6. volume": "97766721",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-24": {
+            "1. open": "411.99",
+            "2. high": "413.07",
+            "3. low": "410.6",
+            "4. close": "412.63",
+            "5. adjusted close": "412.63",
+            "6. volume": "64332095",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-21": {
+            "1. open": "412.19",
+            "2. high": "412.68",
+            "3. low": "410.17",
+            "4. close": "412.2",
+            "5. adjusted close": "412.2",
+            "6. volume": "73457422",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-20": {
+            "1. open": "411.21",
+            "2. high": "413.7",
+            "3. low": "410.27",
+            "4. close": "411.88",
+            "5. adjusted close": "411.88",
+            "6. volume": "75840359",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-19": {
+            "1. open": "412.22",
+            "2. high": "415.08",
+            "3. low": "412.16",
+            "4. close": "414.14",
+            "5. adjusted close": "414.14",
+            "6. volume": "55227330",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-18": {
+            "1. open": "415.58",
+            "2. high": "415.72",
+            "3. low": "412.7802",
+            "4. close": "414.21",
+            "5. adjusted close": "414.21",
+            "6. volume": "63559997",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-17": {
+            "1. open": "412.37",
+            "2. high": "413.96",
+            "3. low": "411.085",
+            "4. close": "413.94",
+            "5. adjusted close": "413.94",
+            "6. volume": "65496534",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-14": {
+            "1. open": "412.81",
+            "2. high": "415.09",
+            "3. low": "410.06",
+            "4. close": "412.46",
+            "5. adjusted close": "412.46",
+            "6. volume": "78161500",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-13": {
+            "1. open": "409.18",
+            "2. high": "413.84",
+            "3. low": "407.9922",
+            "4. close": "413.47",
+            "5. adjusted close": "413.47",
+            "6. volume": "85814754",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-12": {
+            "1. open": "411.87",
+            "2. high": "412.17",
+            "3. low": "407.44",
+            "4. close": "408.05",
+            "5. adjusted close": "408.05",
+            "6. volume": "86420379",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-11": {
+            "1. open": "410.26",
+            "2. high": "411.18",
+            "3. low": "408.92",
+            "4. close": "409.72",
+            "5. adjusted close": "409.72",
+            "6. volume": "59297945",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-10": {
+            "1. open": "406.61",
+            "2. high": "409.69",
+            "3. low": "405.97",
+            "4. close": "409.61",
+            "5. adjusted close": "409.61",
+            "6. volume": "63681042",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-06": {
+            "1. open": "406.77",
+            "2. high": "409.48",
+            "3. low": "405.678",
+            "4. close": "409.19",
+            "5. adjusted close": "409.19",
+            "6. volume": "63743345",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-05": {
+            "1. open": "407.91",
+            "2. high": "408.7",
+            "3. low": "405.88",
+            "4. close": "407.6",
+            "5. adjusted close": "407.6",
+            "6. volume": "65200243",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-04": {
+            "1. open": "411.62",
+            "2. high": "411.92",
+            "3. low": "407.24",
+            "4. close": "408.67",
+            "5. adjusted close": "408.67",
+            "6. volume": "66601534",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-04-03": {
+            "1. open": "408.85",
+            "2. high": "411.37",
+            "3. low": "408.44",
+            "4. close": "410.95",
+            "5. adjusted close": "410.95",
+            "6. volume": "67391097",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-31": {
+            "1. open": "404.66",
+            "2. high": "409.7",
+            "3. low": "404.55",
+            "4. close": "409.39",
+            "5. adjusted close": "409.39",
+            "6. volume": "112062624",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-30": {
+            "1. open": "404.09",
+            "2. high": "404.35",
+            "3. low": "401.76",
+            "4. close": "403.7",
+            "5. adjusted close": "403.7",
+            "6. volume": "69840049",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-29": {
+            "1. open": "399.925",
+            "2. high": "401.6",
+            "3. low": "398.68",
+            "4. close": "401.35",
+            "5. adjusted close": "401.35",
+            "6. volume": "77497876",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-28": {
+            "1. open": "395.77",
+            "2. high": "396.49",
+            "3. low": "393.69",
+            "4. close": "395.6",
+            "5. adjusted close": "395.6",
+            "6. volume": "62871680",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-27": {
+            "1. open": "398.12",
+            "2. high": "398.92",
+            "3. low": "395.56",
+            "4. close": "396.49",
+            "5. adjusted close": "396.49",
+            "6. volume": "74010408",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-24": {
+            "1. open": "391.841",
+            "2. high": "395.84",
+            "3. low": "389.4",
+            "4. close": "395.75",
+            "5. adjusted close": "395.75",
+            "6. volume": "107770124",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-23": {
+            "1. open": "395.09",
+            "2. high": "399.29",
+            "3. low": "390.35",
+            "4. close": "393.17",
+            "5. adjusted close": "393.17",
+            "6. volume": "119351319",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-22": {
+            "1. open": "398.73",
+            "2. high": "402.49",
+            "3. low": "392.07",
+            "4. close": "392.11",
+            "5. adjusted close": "392.11",
+            "6. volume": "111746583",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-21": {
+            "1. open": "397.24",
+            "2. high": "399.41",
+            "3. low": "395.58",
+            "4. close": "398.91",
+            "5. adjusted close": "398.91",
+            "6. volume": "91524248",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-20": {
+            "1. open": "390.8",
+            "2. high": "394.17",
+            "3. low": "390.07",
+            "4. close": "393.74",
+            "5. adjusted close": "393.74",
+            "6. volume": "93055783",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-17": {
+            "1. open": "393.22",
+            "2. high": "394.4",
+            "3. low": "388.55",
+            "4. close": "389.99",
+            "5. adjusted close": "389.99",
+            "6. volume": "140553411",
+            "7. dividend amount": "1.5062",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-16": {
+            "1. open": "386.82",
+            "2. high": "396.47",
+            "3. low": "386.29",
+            "4. close": "396.11",
+            "5. adjusted close": "394.586045334938",
+            "6. volume": "143753940",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-15": {
+            "1. open": "385.89",
+            "2. high": "389.49",
+            "3. low": "383.71",
+            "4. close": "389.28",
+            "5. adjusted close": "387.782322405353",
+            "6. volume": "172996933",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-14": {
+            "1. open": "390.5",
+            "2. high": "393.45",
+            "3. low": "387.05",
+            "4. close": "391.73",
+            "5. adjusted close": "390.222896516258",
+            "6. volume": "149752357",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-13": {
+            "1. open": "381.81",
+            "2. high": "390.39",
+            "3. low": "380.65",
+            "4. close": "385.36",
+            "5. adjusted close": "383.877403827905",
+            "6. volume": "157789967",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-10": {
+            "1. open": "390.99",
+            "2. high": "393.16",
+            "3. low": "384.32",
+            "4. close": "385.91",
+            "5. adjusted close": "384.425287811986",
+            "6. volume": "189252996",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-09": {
+            "1. open": "399.74",
+            "2. high": "401.48",
+            "3. low": "390.53",
+            "4. close": "391.56",
+            "5. adjusted close": "390.053550557543",
+            "6. volume": "111945322",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-08": {
+            "1. open": "398.39",
+            "2. high": "399.71",
+            "3. low": "396.59",
+            "4. close": "398.92",
+            "5. adjusted close": "397.385234417241",
+            "6. volume": "74746632",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-07": {
+            "1. open": "404.42",
+            "2. high": "404.67",
+            "3. low": "397.625",
+            "4. close": "398.27",
+            "5. adjusted close": "396.737735163327",
+            "6. volume": "108310596",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-06": {
+            "1. open": "405.05",
+            "2. high": "407.45",
+            "3. low": "404.01",
+            "4. close": "404.47",
+            "5. adjusted close": "402.913881892965",
+            "6. volume": "72795946",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-03": {
+            "1. open": "399.71",
+            "2. high": "404.45",
+            "3. low": "399.03",
+            "4. close": "404.19",
+            "5. adjusted close": "402.634959137433",
+            "6. volume": "90119952",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-02": {
+            "1. open": "392.68",
+            "2. high": "398.69",
+            "3. low": "392.33",
+            "4. close": "397.81",
+            "5. adjusted close": "396.279504922096",
+            "6. volume": "85404726",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-03-01": {
+            "1. open": "395.41",
+            "2. high": "396.69",
+            "3. low": "393.38",
+            "4. close": "394.74",
+            "5. adjusted close": "393.221316138227",
+            "6. volume": "99706823",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-28": {
+            "1. open": "397.23",
+            "2. high": "399.28",
+            "3. low": "396.15",
+            "4. close": "396.26",
+            "5. adjusted close": "394.735468239687",
+            "6. volume": "96438567",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-27": {
+            "1. open": "399.87",
+            "2. high": "401.29",
+            "3. low": "396.75",
+            "4. close": "397.73",
+            "5. adjusted close": "396.19981270623",
+            "6. volume": "80444736",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-24": {
+            "1. open": "395.42",
+            "2. high": "397.25",
+            "3. low": "393.64",
+            "4. close": "396.38",
+            "5. adjusted close": "394.855006563486",
+            "6. volume": "108194413",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-23": {
+            "1. open": "401.56",
+            "2. high": "402.2",
+            "3. low": "396.25",
+            "4. close": "400.66",
+            "5. adjusted close": "399.118540112333",
+            "6. volume": "96242399",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-22": {
+            "1. open": "399.52",
+            "2. high": "401.13",
+            "3. low": "397.02",
+            "4. close": "398.54",
+            "5. adjusted close": "397.006696391876",
+            "6. volume": "83742293",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-21": {
+            "1. open": "403.06",
+            "2. high": "404.16",
+            "3. low": "398.82",
+            "4. close": "399.09",
+            "5. adjusted close": "397.554580375957",
+            "6. volume": "82655924",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-17": {
+            "1. open": "406.06",
+            "2. high": "407.51",
+            "3. low": "404.05",
+            "4. close": "407.26",
+            "5. adjusted close": "405.693147921301",
+            "6. volume": "89257815",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-16": {
+            "1. open": "408.79",
+            "2. high": "412.91",
+            "3. low": "408.14",
+            "4. close": "408.28",
+            "5. adjusted close": "406.709223673597",
+            "6. volume": "76431469",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-15": {
+            "1. open": "410.35",
+            "2. high": "414.06",
+            "3. low": "409.47",
+            "4. close": "413.98",
+            "5. adjusted close": "412.38729405407",
+            "6. volume": "61685279",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-14": {
+            "1. open": "411.24",
+            "2. high": "415.05",
+            "3. low": "408.511",
+            "4. close": "412.64",
+            "5. adjusted close": "411.052449438309",
+            "6. volume": "88389313",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-13": {
+            "1. open": "408.72",
+            "2. high": "412.97",
+            "3. low": "408.24",
+            "4. close": "412.83",
+            "5. adjusted close": "411.241718450992",
+            "6. volume": "64913539",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-10": {
+            "1. open": "405.86",
+            "2. high": "408.44",
+            "3. low": "405.01",
+            "4. close": "408.04",
+            "5. adjusted close": "406.470147025998",
+            "6. volume": "70769715",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-09": {
+            "1. open": "414.41",
+            "2. high": "414.57",
+            "3. low": "405.81",
+            "4. close": "407.09",
+            "5. adjusted close": "405.523801962585",
+            "6. volume": "78694859",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-08": {
+            "1. open": "413.13",
+            "2. high": "414.53",
+            "3. low": "409.93",
+            "4. close": "410.65",
+            "5. adjusted close": "409.070105568635",
+            "6. volume": "76227462",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-07": {
+            "1. open": "408.87",
+            "2. high": "416.49",
+            "3. low": "407.57",
+            "4. close": "415.19",
+            "5. adjusted close": "413.592638819047",
+            "6. volume": "90990745",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-06": {
+            "1. open": "409.79",
+            "2. high": "411.29",
+            "3. low": "408.1",
+            "4. close": "409.83",
+            "5. adjusted close": "408.253260356006",
+            "6. volume": "60295325",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-03": {
+            "1. open": "411.59",
+            "2. high": "416.97",
+            "3. low": "411.09",
+            "4. close": "412.35",
+            "5. adjusted close": "410.763565155794",
+            "6. volume": "94736781",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-02": {
+            "1. open": "414.86",
+            "2. high": "418.31",
+            "3. low": "412.88",
+            "4. close": "416.78",
+            "5. adjusted close": "415.17652160939",
+            "6. volume": "101654463",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-02-01": {
+            "1. open": "405.211",
+            "2. high": "413.67",
+            "3. low": "402.35",
+            "4. close": "410.8",
+            "5. adjusted close": "409.219528473385",
+            "6. volume": "101459155",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-31": {
+            "1. open": "401.13",
+            "2. high": "406.53",
+            "3. low": "400.77",
+            "4. close": "406.48",
+            "5. adjusted close": "404.916148816605",
+            "6. volume": "86811786",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-30": {
+            "1. open": "402.8",
+            "2. high": "405.13",
+            "3. low": "400.28",
+            "4. close": "400.59",
+            "5. adjusted close": "399.04880942345",
+            "6. volume": "74202018",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-27": {
+            "1. open": "403.655",
+            "2. high": "408.16",
+            "3. low": "403.44",
+            "4. close": "405.68",
+            "5. adjusted close": "404.119226657942",
+            "6. volume": "68346180",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-26": {
+            "1. open": "403.13",
+            "2. high": "404.92",
+            "3. low": "400.03",
+            "4. close": "404.75",
+            "5. adjusted close": "403.192804648497",
+            "6. volume": "72287425",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-25": {
+            "1. open": "395.95",
+            "2. high": "400.7",
+            "3. low": "393.56",
+            "4. close": "400.35",
+            "5. adjusted close": "398.809732775851",
+            "6. volume": "84800251",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-24": {
+            "1. open": "398.88",
+            "2. high": "401.15",
+            "3. low": "397.64",
+            "4. close": "400.2",
+            "5. adjusted close": "398.660309871102",
+            "6. volume": "59524911",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-23": {
+            "1. open": "396.72",
+            "2. high": "402.645",
+            "3. low": "395.72",
+            "4. close": "400.63",
+            "5. adjusted close": "399.088655531383",
+            "6. volume": "84178797",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-20": {
+            "1. open": "390.1",
+            "2. high": "396.04",
+            "3. low": "388.38",
+            "4. close": "395.88",
+            "5. adjusted close": "394.356930214322",
+            "6. volume": "91806356",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-19": {
+            "1. open": "389.36",
+            "2. high": "391.08",
+            "3. low": "387.26",
+            "4. close": "388.64",
+            "5. adjusted close": "387.144784678423",
+            "6. volume": "86958919",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-18": {
+            "1. open": "399.01",
+            "2. high": "400.12",
+            "3. low": "391.28",
+            "4. close": "391.49",
+            "5. adjusted close": "389.98381986866",
+            "6. volume": "99632262",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-17": {
+            "1. open": "398.48",
+            "2. high": "400.23",
+            "3. low": "397.06",
+            "4. close": "397.77",
+            "5. adjusted close": "396.239658814163",
+            "6. volume": "62677281",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-13": {
+            "1. open": "393.62",
+            "2. high": "399.1",
+            "3. low": "393.34",
+            "4. close": "398.5",
+            "5. adjusted close": "396.966850283943",
+            "6. volume": "63903932",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-12": {
+            "1. open": "396.67",
+            "2. high": "398.485",
+            "3. low": "392.42",
+            "4. close": "396.96",
+            "5. adjusted close": "395.432775128517",
+            "6. volume": "90157699",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-11": {
+            "1. open": "392.23",
+            "2. high": "395.6",
+            "3. low": "391.38",
+            "4. close": "395.52",
+            "5. adjusted close": "393.998315242924",
+            "6. volume": "68881080",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-10": {
+            "1. open": "387.25",
+            "2. high": "390.65",
+            "3. low": "386.27",
+            "4. close": "390.58",
+            "5. adjusted close": "389.07732091318",
+            "6. volume": "65358094",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-09": {
+            "1. open": "390.37",
+            "2. high": "393.7",
+            "3. low": "387.67",
+            "4. close": "387.86",
+            "5. adjusted close": "386.367785573727",
+            "6. volume": "73978071",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-06": {
+            "1. open": "382.61",
+            "2. high": "389.25",
+            "3. low": "379.4127",
+            "4. close": "388.08",
+            "5. adjusted close": "386.586939167359",
+            "6. volume": "104189603",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-05": {
+            "1. open": "381.72",
+            "2. high": "381.84",
+            "3. low": "378.76",
+            "4. close": "379.38",
+            "5. adjusted close": "377.9204106919",
+            "6. volume": "76970456",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
+        "2023-01-04": {
+            "1. open": "383.18",
+            "2. high": "385.88",
+            "3. low": "380.0",
+            "4. close": "383.76",
+            "5. adjusted close": "382.283559510579",
+            "6. volume": "85934098",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        }
+    }
+}
