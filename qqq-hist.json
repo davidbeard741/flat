@@ -2,18 +2,28 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "QQQ",
-        "3. Last Refreshed": "2023-05-31",
+        "3. Last Refreshed": "2023-06-01",
         "4. Output Size": "Compact",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-01": {
+            "1. open": "347.76",
+            "2. high": "353.36",
+            "3. low": "346.66",
+            "4. close": "352.01",
+            "5. adjusted close": "352.01",
+            "6. volume": "49894378",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-05-31": {
-            "1. open": "348.27",
-            "2. high": "350.53",
+            "1. open": "348.37",
+            "2. high": "350.6",
             "3. low": "346.51",
             "4. close": "347.99",
             "5. adjusted close": "347.99",
-            "6. volume": "64742692",
+            "6. volume": "64205020",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         },
@@ -994,16 +1004,6 @@
             "4. close": "270.54",
             "5. adjusted close": "270.123095632087",
             "6. volume": "45568676",
-            "7. dividend amount": "0.0000",
-            "8. split coefficient": "1.0"
-        },
-        "2023-01-06": {
-            "1. open": "263.35",
-            "2. high": "269.94",
-            "3. low": "260.34",
-            "4. close": "268.8",
-            "5. adjusted close": "268.385776986416",
-            "6. volume": "54659739",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         }
