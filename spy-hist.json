@@ -8,12 +8,12 @@
     },
     "Time Series (Daily)": {
         "2023-06-02": {
-            "1. open": "424.58",
-            "2. high": "428.735",
+            "1. open": "424.5",
+            "2. high": "428.74",
             "3. low": "423.95",
             "4. close": "427.92",
             "5. adjusted close": "427.92",
-            "6. volume": "90943915",
+            "6. volume": "91426171",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         },
