@@ -2,18 +2,28 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "NVDA",
-        "3. Last Refreshed": "2023-06-05",
+        "3. Last Refreshed": "2023-06-06",
         "4. Output Size": "Compact",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-06": {
+            "1. open": "388.41",
+            "2. high": "391.59",
+            "3. low": "381.48",
+            "4. close": "386.54",
+            "5. adjusted close": "386.54",
+            "6. volume": "38051027",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-05": {
-            "1. open": "388.9",
-            "2. high": "395.65",
-            "3. low": "387.0901",
+            "1. open": "389.09",
+            "2. high": "395.6503",
+            "3. low": "387.07",
             "4. close": "391.71",
             "5. adjusted close": "391.71",
-            "6. volume": "39405574",
+            "6. volume": "39609381",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         },
@@ -994,16 +1004,6 @@
             "4. close": "165.11",
             "5. adjusted close": "165.081645200069",
             "6. volume": "55140906",
-            "7. dividend amount": "0.0000",
-            "8. split coefficient": "1.0"
-        },
-        "2023-01-11": {
-            "1. open": "158.3951",
-            "2. high": "160.28",
-            "3. low": "155.63",
-            "4. close": "160.01",
-            "5. adjusted close": "159.982521037266",
-            "6. volume": "35328493",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         }
