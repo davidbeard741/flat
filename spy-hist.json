@@ -2,18 +2,28 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "SPY",
-        "3. Last Refreshed": "2023-06-21",
+        "3. Last Refreshed": "2023-06-22",
         "4. Output Size": "Compact",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-22": {
+            "1. open": "433.985",
+            "2. high": "436.62",
+            "3. low": "433.6",
+            "4. close": "436.55",
+            "5. adjusted close": "436.55",
+            "6. volume": "70341784",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-21": {
-            "1. open": "436.13",
+            "1. open": "436.16",
             "2. high": "436.99",
             "3. low": "434.33",
-            "4. close": "434.93",
-            "5. adjusted close": "434.93",
-            "6. volume": "76817148",
+            "4. close": "434.94",
+            "5. adjusted close": "434.94",
+            "6. volume": "76982251",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         },
@@ -994,16 +1004,6 @@
             "4. close": "400.59",
             "5. adjusted close": "397.566626650489",
             "6. volume": "74202018",
-            "7. dividend amount": "0.0000",
-            "8. split coefficient": "1.0"
-        },
-        "2023-01-27": {
-            "1. open": "403.655",
-            "2. high": "408.16",
-            "3. low": "403.44",
-            "4. close": "405.68",
-            "5. adjusted close": "402.618210887866",
-            "6. volume": "68346180",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         }
