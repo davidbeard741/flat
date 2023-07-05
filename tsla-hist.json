@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "TSLA",
-        "3. Last Refreshed": "2023-07-03",
+        "3. Last Refreshed": "2023-07-05",
         "4. Output Size": "Compact",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-07-05": {
+            "1. open": "278.7",
+            "2. high": "283.85",
+            "3. low": "277.6",
+            "4. close": "282.48",
+            "5. adjusted close": "282.48",
+            "6. volume": "130565916",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-07-03": {
             "1. open": "276.49",
             "2. high": "284.25",
@@ -994,16 +1004,6 @@
             "4. close": "207.32",
             "5. adjusted close": "207.32",
             "6. volume": "215431442",
-            "7. dividend amount": "0.0000",
-            "8. split coefficient": "1.0"
-        },
-        "2023-02-08": {
-            "1. open": "196.1",
-            "2. high": "203.0",
-            "3. low": "194.31",
-            "4. close": "201.29",
-            "5. adjusted close": "201.29",
-            "6. volume": "180673644",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         }
